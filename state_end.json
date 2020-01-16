@@ -1,0 +1,2694 @@
+{
+	"buildings": {
+		"radiant": {
+			"dota_goodguys_tower4_top": {
+				"health": 1701,
+				"max_health": 2100
+			},
+			"dota_goodguys_tower4_bot": {
+				"health": 132,
+				"max_health": 2100
+			}
+		},
+		"dire": {
+			"dota_badguys_tower2_top": {
+				"health": 2000,
+				"max_health": 2000
+			},
+			"dota_badguys_tower3_top": {
+				"health": 2000,
+				"max_health": 2000
+			},
+			"dota_badguys_tower2_mid": {
+				"health": 911,
+				"max_health": 2000
+			},
+			"dota_badguys_tower3_mid": {
+				"health": 2000,
+				"max_health": 2000
+			},
+			"dota_badguys_tower1_bot": {
+				"health": 252,
+				"max_health": 1800
+			},
+			"dota_badguys_tower2_bot": {
+				"health": 2000,
+				"max_health": 2000
+			},
+			"dota_badguys_tower3_bot": {
+				"health": 2000,
+				"max_health": 2000
+			},
+			"dota_badguys_tower4_top": {
+				"health": 2100,
+				"max_health": 2100
+			},
+			"dota_badguys_tower4_bot": {
+				"health": 2100,
+				"max_health": 2100
+			},
+			"bad_rax_melee_top": {
+				"health": 2200,
+				"max_health": 2200
+			},
+			"bad_rax_range_top": {
+				"health": 1300,
+				"max_health": 1300
+			},
+			"bad_rax_melee_mid": {
+				"health": 2200,
+				"max_health": 2200
+			},
+			"bad_rax_range_mid": {
+				"health": 1300,
+				"max_health": 1300
+			},
+			"bad_rax_melee_bot": {
+				"health": 2200,
+				"max_health": 2200
+			},
+			"bad_rax_range_bot": {
+				"health": 1300,
+				"max_health": 1300
+			},
+			"dota_badguys_fort": {
+				"health": 4500,
+				"max_health": 4500
+			}
+		}
+	},
+	"provider": {
+		"name": "Dota 2",
+		"appid": 570,
+		"version": 47,
+		"timestamp": 1578747129
+	},
+	"map": {
+		"name": "start",
+		"matchid": "5191286625",
+		"game_time": 3422,
+		"clock_time": 2241,
+		"daytime": false,
+		"nightstalker_night": false,
+		"game_state": "DOTA_GAMERULES_STATE_POST_GAME",
+		"paused": false,
+		"win_team": "dire",
+		"customgamename": "",
+		"radiant_ward_purchase_cooldown": 0,
+		"dire_ward_purchase_cooldown": 0,
+		"roshan_state": "respawn_base",
+		"roshan_state_end_seconds": 158
+	},
+	"player": {
+		"team2": {
+			"player0": {
+				"steamid": "76561198050391294",
+				"name": "Misha",
+				"activity": "playing",
+				"kills": 2,
+				"deaths": 14,
+				"assists": 7,
+				"last_hits": 28,
+				"denies": 1,
+				"kill_streak": 0,
+				"commands_issued": 10361,
+				"kill_list": {
+					"victimid_5": 1,
+					"victimid_9": 1
+				},
+				"team_name": "radiant",
+				"gold": 932,
+				"gold_reliable": 90,
+				"gold_unreliable": 842,
+				"gold_from_hero_kills": 835,
+				"gold_from_creep_kills": 998,
+				"gold_from_income": 3051,
+				"gold_from_shared": 392,
+				"gpm": 205,
+				"xpm": 0,
+				"net_worth": 3307,
+				"hero_damage": 13101,
+				"wards_purchased": 57,
+				"wards_placed": 27,
+				"wards_destroyed": 7,
+				"runes_activated": 2,
+				"camps_stacked": 1,
+				"support_gold_spent": 2355,
+				"consumable_gold_spent": 3815,
+				"item_gold_spent": 2700,
+				"gold_lost_to_death": 873,
+				"gold_spent_on_buybacks": 354
+			},
+			"player1": {
+				"steamid": "76561198091066831",
+				"name": "nongrata`",
+				"activity": "playing",
+				"kills": 5,
+				"deaths": 5,
+				"assists": 8,
+				"last_hits": 184,
+				"denies": 29,
+				"kill_streak": 0,
+				"commands_issued": 6318,
+				"kill_list": {
+					"victimid_5": 2,
+					"victimid_7": 3
+				},
+				"team_name": "radiant",
+				"gold": 731,
+				"gold_reliable": 89,
+				"gold_unreliable": 642,
+				"gold_from_hero_kills": 1284,
+				"gold_from_creep_kills": 7679,
+				"gold_from_income": 5458,
+				"gold_from_shared": 219,
+				"gpm": 420,
+				"xpm": 0,
+				"net_worth": 13711,
+				"hero_damage": 18261,
+				"wards_purchased": 0,
+				"wards_placed": 0,
+				"wards_destroyed": 1,
+				"runes_activated": 2,
+				"camps_stacked": 0,
+				"support_gold_spent": 0,
+				"consumable_gold_spent": 1020,
+				"item_gold_spent": 13970,
+				"gold_lost_to_death": 1218,
+				"gold_spent_on_buybacks": 0
+			},
+			"player2": {
+				"steamid": "76561198836376430",
+				"name": "Ergon",
+				"activity": "playing",
+				"kills": 3,
+				"deaths": 4,
+				"assists": 6,
+				"last_hits": 197,
+				"denies": 4,
+				"kill_streak": 2,
+				"commands_issued": 14002,
+				"kill_list": {
+					"victimid_5": 1,
+					"victimid_7": 1,
+					"victimid_8": 1
+				},
+				"team_name": "radiant",
+				"gold": 1798,
+				"gold_reliable": 533,
+				"gold_unreliable": 1265,
+				"gold_from_hero_kills": 1332,
+				"gold_from_creep_kills": 8548,
+				"gold_from_income": 3051,
+				"gold_from_shared": 294,
+				"gpm": 377,
+				"xpm": 0,
+				"net_worth": 13053,
+				"hero_damage": 19667,
+				"wards_purchased": 0,
+				"wards_placed": 1,
+				"wards_destroyed": 0,
+				"runes_activated": 9,
+				"camps_stacked": 1,
+				"support_gold_spent": 0,
+				"consumable_gold_spent": 1060,
+				"item_gold_spent": 11905,
+				"gold_lost_to_death": 352,
+				"gold_spent_on_buybacks": 0
+			},
+			"player3": {
+				"steamid": "76561198074261550",
+				"name": "iLTW",
+				"activity": "playing",
+				"kills": 4,
+				"deaths": 4,
+				"assists": 3,
+				"last_hits": 323,
+				"denies": 34,
+				"kill_streak": 0,
+				"commands_issued": 11896,
+				"kill_list": {
+					"victimid_5": 1,
+					"victimid_6": 1,
+					"victimid_9": 2
+				},
+				"team_name": "radiant",
+				"gold": 1050,
+				"gold_reliable": 957,
+				"gold_unreliable": 93,
+				"gold_from_hero_kills": 1065,
+				"gold_from_creep_kills": 12610,
+				"gold_from_income": 3051,
+				"gold_from_shared": 204,
+				"gpm": 481,
+				"xpm": 0,
+				"net_worth": 15150,
+				"hero_damage": 21062,
+				"wards_purchased": 0,
+				"wards_placed": 0,
+				"wards_destroyed": 2,
+				"runes_activated": 3,
+				"camps_stacked": 0,
+				"support_gold_spent": 0,
+				"consumable_gold_spent": 850,
+				"item_gold_spent": 16320,
+				"gold_lost_to_death": 1077,
+				"gold_spent_on_buybacks": 0
+			},
+			"player4": {
+				"steamid": "76561198255963198",
+				"name": "Immersion",
+				"activity": "playing",
+				"kills": 1,
+				"deaths": 4,
+				"assists": 9,
+				"last_hits": 87,
+				"denies": 2,
+				"kill_streak": 0,
+				"commands_issued": 14423,
+				"kill_list": {
+					"victimid_5": 1
+				},
+				"team_name": "radiant",
+				"gold": 798,
+				"gold_reliable": 73,
+				"gold_unreliable": 725,
+				"gold_from_hero_kills": 659,
+				"gold_from_creep_kills": 4089,
+				"gold_from_income": 5048,
+				"gold_from_shared": 437,
+				"gpm": 297,
+				"xpm": 0,
+				"net_worth": 8738,
+				"hero_damage": 18045,
+				"wards_purchased": 9,
+				"wards_placed": 8,
+				"wards_destroyed": 1,
+				"runes_activated": 2,
+				"camps_stacked": 0,
+				"support_gold_spent": 375,
+				"consumable_gold_spent": 1405,
+				"item_gold_spent": 8490,
+				"gold_lost_to_death": 642,
+				"gold_spent_on_buybacks": 617
+			}
+		},
+		"team3": {
+			"player5": {
+				"steamid": "76561198105816194",
+				"name": "DuBu",
+				"activity": "playing",
+				"kills": 4,
+				"deaths": 6,
+				"assists": 11,
+				"last_hits": 72,
+				"denies": 1,
+				"kill_streak": 0,
+				"commands_issued": 6948,
+				"kill_list": {
+					"victimid_0": 2,
+					"victimid_1": 1,
+					"victimid_3": 1
+				},
+				"team_name": "dire",
+				"gold": 3486,
+				"gold_reliable": 2202,
+				"gold_unreliable": 1284,
+				"gold_from_hero_kills": 1874,
+				"gold_from_creep_kills": 2049,
+				"gold_from_income": 4079,
+				"gold_from_shared": 0,
+				"gpm": 355,
+				"xpm": 0,
+				"net_worth": 9411,
+				"hero_damage": 13054,
+				"wards_purchased": 64,
+				"wards_placed": 36,
+				"wards_destroyed": 12,
+				"runes_activated": 9,
+				"camps_stacked": 4,
+				"support_gold_spent": 2110,
+				"consumable_gold_spent": 3800,
+				"item_gold_spent": 7000,
+				"gold_lost_to_death": 385,
+				"gold_spent_on_buybacks": 236
+			},
+			"player6": {
+				"steamid": "76561198054547660",
+				"name": "K",
+				"activity": "playing",
+				"kills": 6,
+				"deaths": 1,
+				"assists": 12,
+				"last_hits": 419,
+				"denies": 14,
+				"kill_streak": 4,
+				"commands_issued": 7603,
+				"kill_list": {
+					"victimid_0": 3,
+					"victimid_2": 2,
+					"victimid_4": 1
+				},
+				"team_name": "dire",
+				"gold": 1945,
+				"gold_reliable": 1742,
+				"gold_unreliable": 203,
+				"gold_from_hero_kills": 1616,
+				"gold_from_creep_kills": 15458,
+				"gold_from_income": 3051,
+				"gold_from_shared": 0,
+				"gpm": 677,
+				"xpm": 0,
+				"net_worth": 24070,
+				"hero_damage": 27902,
+				"wards_purchased": 1,
+				"wards_placed": 1,
+				"wards_destroyed": 0,
+				"runes_activated": 3,
+				"camps_stacked": 2,
+				"support_gold_spent": 0,
+				"consumable_gold_spent": 1280,
+				"item_gold_spent": 23095,
+				"gold_lost_to_death": 164,
+				"gold_spent_on_buybacks": 0
+			},
+			"player7": {
+				"steamid": "76561198145216072",
+				"name": "Kuku^",
+				"activity": "playing",
+				"kills": 7,
+				"deaths": 4,
+				"assists": 16,
+				"last_hits": 169,
+				"denies": 9,
+				"kill_streak": 4,
+				"commands_issued": 7034,
+				"kill_list": {
+					"victimid_0": 4,
+					"victimid_1": 1,
+					"victimid_4": 2
+				},
+				"team_name": "dire",
+				"gold": 720,
+				"gold_reliable": 578,
+				"gold_unreliable": 142,
+				"gold_from_hero_kills": 2400,
+				"gold_from_creep_kills": 6843,
+				"gold_from_income": 2791,
+				"gold_from_shared": 0,
+				"gpm": 436,
+				"xpm": 0,
+				"net_worth": 15000,
+				"hero_damage": 13160,
+				"wards_purchased": 0,
+				"wards_placed": 1,
+				"wards_destroyed": 1,
+				"runes_activated": 5,
+				"camps_stacked": 0,
+				"support_gold_spent": 0,
+				"consumable_gold_spent": 1300,
+				"item_gold_spent": 14540,
+				"gold_lost_to_death": 463,
+				"gold_spent_on_buybacks": 0
+			},
+			"player8": {
+				"steamid": "76561198092575221",
+				"name": "Raven",
+				"activity": "playing",
+				"kills": 11,
+				"deaths": 1,
+				"assists": 10,
+				"last_hits": 345,
+				"denies": 10,
+				"kill_streak": 5,
+				"commands_issued": 6072,
+				"kill_list": {
+					"victimid_0": 5,
+					"victimid_1": 3,
+					"victimid_3": 2,
+					"victimid_4": 1
+				},
+				"team_name": "dire",
+				"gold": 3981,
+				"gold_reliable": 2755,
+				"gold_unreliable": 1226,
+				"gold_from_hero_kills": 3242,
+				"gold_from_creep_kills": 13197,
+				"gold_from_income": 3051,
+				"gold_from_shared": 0,
+				"gpm": 634,
+				"xpm": 0,
+				"net_worth": 22406,
+				"hero_damage": 26128,
+				"wards_purchased": 0,
+				"wards_placed": 0,
+				"wards_destroyed": 1,
+				"runes_activated": 3,
+				"camps_stacked": 0,
+				"support_gold_spent": 0,
+				"consumable_gold_spent": 1100,
+				"item_gold_spent": 19540,
+				"gold_lost_to_death": 408,
+				"gold_spent_on_buybacks": 0
+			},
+			"player9": {
+				"steamid": "76561198081669956",
+				"name": "Xepher",
+				"activity": "playing",
+				"kills": 2,
+				"deaths": 3,
+				"assists": 18,
+				"last_hits": 104,
+				"denies": 1,
+				"kill_streak": 0,
+				"commands_issued": 6556,
+				"kill_list": {
+					"victimid_2": 1,
+					"victimid_3": 1
+				},
+				"team_name": "dire",
+				"gold": 1546,
+				"gold_reliable": 763,
+				"gold_unreliable": 783,
+				"gold_from_hero_kills": 1534,
+				"gold_from_creep_kills": 4461,
+				"gold_from_income": 3051,
+				"gold_from_shared": 0,
+				"gpm": 352,
+				"xpm": 0,
+				"net_worth": 10396,
+				"hero_damage": 15766,
+				"wards_purchased": 5,
+				"wards_placed": 6,
+				"wards_destroyed": 4,
+				"runes_activated": 6,
+				"camps_stacked": 3,
+				"support_gold_spent": 530,
+				"consumable_gold_spent": 1550,
+				"item_gold_spent": 9500,
+				"gold_lost_to_death": 557,
+				"gold_spent_on_buybacks": 969
+			}
+		}
+	},
+	"hero": {
+		"team2": {
+			"player0": {
+				"xpos": -7100,
+				"ypos": -6150,
+				"id": 31,
+				"name": "npc_dota_hero_lich",
+				"level": 13,
+				"alive": true,
+				"respawn_seconds": 0,
+				"buyback_cost": 354,
+				"buyback_cooldown": 3733,
+				"health": 1500,
+				"max_health": 1500,
+				"health_percent": 100,
+				"mana": 1071,
+				"max_mana": 1071,
+				"mana_percent": 100,
+				"silenced": false,
+				"stunned": false,
+				"disarmed": false,
+				"magicimmune": false,
+				"hexed": false,
+				"muted": false,
+				"break": false,
+				"smoked": false,
+				"has_debuff": false,
+				"selected_unit": false,
+				"talent_1": true,
+				"talent_2": false,
+				"talent_3": false,
+				"talent_4": false,
+				"talent_5": false,
+				"talent_6": false,
+				"talent_7": false,
+				"talent_8": false
+			},
+			"player1": {
+				"xpos": -6750,
+				"ypos": -6550,
+				"id": 57,
+				"name": "npc_dota_hero_omniknight",
+				"level": 18,
+				"alive": true,
+				"respawn_seconds": 0,
+				"buyback_cost": 1154,
+				"buyback_cooldown": 0,
+				"health": 2120,
+				"max_health": 2120,
+				"health_percent": 100,
+				"mana": 771,
+				"max_mana": 771,
+				"mana_percent": 100,
+				"silenced": false,
+				"stunned": false,
+				"disarmed": false,
+				"magicimmune": false,
+				"hexed": false,
+				"muted": false,
+				"break": false,
+				"smoked": false,
+				"has_debuff": false,
+				"selected_unit": false,
+				"talent_1": true,
+				"talent_2": false,
+				"talent_3": false,
+				"talent_4": true,
+				"talent_5": false,
+				"talent_6": false,
+				"talent_7": false,
+				"talent_8": false
+			},
+			"player2": {
+				"xpos": -5310,
+				"ypos": -5034,
+				"id": 19,
+				"name": "npc_dota_hero_tiny",
+				"level": 20,
+				"alive": true,
+				"respawn_seconds": 0,
+				"buyback_cost": 1104,
+				"buyback_cooldown": 0,
+				"health": 2064,
+				"max_health": 3215,
+				"health_percent": 64,
+				"mana": 1186,
+				"max_mana": 1186,
+				"mana_percent": 100,
+				"silenced": false,
+				"stunned": false,
+				"disarmed": false,
+				"magicimmune": false,
+				"hexed": false,
+				"muted": false,
+				"break": false,
+				"smoked": false,
+				"has_debuff": true,
+				"selected_unit": false,
+				"talent_1": true,
+				"talent_2": false,
+				"talent_3": false,
+				"talent_4": true,
+				"talent_5": true,
+				"talent_6": false,
+				"talent_7": false,
+				"talent_8": false
+			},
+			"player3": {
+				"xpos": -6900,
+				"ypos": -6425,
+				"id": 10,
+				"name": "npc_dota_hero_morphling",
+				"level": 23,
+				"alive": true,
+				"respawn_seconds": 0,
+				"buyback_cost": 1265,
+				"buyback_cooldown": 0,
+				"health": 5545,
+				"max_health": 5545,
+				"health_percent": 100,
+				"mana": 1393,
+				"max_mana": 1393,
+				"mana_percent": 100,
+				"silenced": false,
+				"stunned": false,
+				"disarmed": false,
+				"magicimmune": false,
+				"hexed": false,
+				"muted": false,
+				"break": false,
+				"smoked": false,
+				"has_debuff": false,
+				"selected_unit": false,
+				"talent_1": true,
+				"talent_2": false,
+				"talent_3": false,
+				"talent_4": true,
+				"talent_5": false,
+				"talent_6": true,
+				"talent_7": false,
+				"talent_8": false
+			},
+			"player4": {
+				"xpos": -6700,
+				"ypos": -6700,
+				"id": 112,
+				"name": "npc_dota_hero_winter_wyvern",
+				"level": 17,
+				"alive": true,
+				"respawn_seconds": 0,
+				"buyback_cost": 772,
+				"buyback_cooldown": 3651,
+				"health": 1760,
+				"max_health": 1760,
+				"health_percent": 100,
+				"mana": 1581,
+				"max_mana": 1581,
+				"mana_percent": 100,
+				"silenced": false,
+				"stunned": false,
+				"disarmed": false,
+				"magicimmune": false,
+				"hexed": false,
+				"muted": false,
+				"break": false,
+				"smoked": false,
+				"has_debuff": false,
+				"selected_unit": false,
+				"talent_1": true,
+				"talent_2": false,
+				"talent_3": false,
+				"talent_4": true,
+				"talent_5": false,
+				"talent_6": false,
+				"talent_7": false,
+				"talent_8": false
+			}
+		},
+		"team3": {
+			"player5": {
+				"xpos": 6900,
+				"ypos": 6650,
+				"id": 5,
+				"name": "npc_dota_hero_crystal_maiden",
+				"level": 18,
+				"alive": true,
+				"respawn_seconds": 0,
+				"buyback_cost": 823,
+				"buyback_cooldown": 2868,
+				"health": 1360,
+				"max_health": 1360,
+				"health_percent": 100,
+				"mana": 1071,
+				"max_mana": 1071,
+				"mana_percent": 100,
+				"silenced": false,
+				"stunned": false,
+				"disarmed": false,
+				"magicimmune": false,
+				"hexed": false,
+				"muted": false,
+				"break": false,
+				"smoked": false,
+				"has_debuff": false,
+				"selected_unit": false,
+				"talent_1": false,
+				"talent_2": true,
+				"talent_3": false,
+				"talent_4": true,
+				"talent_5": false,
+				"talent_6": false,
+				"talent_7": false,
+				"talent_8": false
+			},
+			"player6": {
+				"xpos": -5469,
+				"ypos": -4943,
+				"id": 97,
+				"name": "npc_dota_hero_magnataur",
+				"level": 26,
+				"alive": true,
+				"respawn_seconds": 0,
+				"buyback_cost": 1951,
+				"buyback_cooldown": 0,
+				"health": 3920,
+				"max_health": 3920,
+				"health_percent": 100,
+				"mana": 987,
+				"max_mana": 987,
+				"mana_percent": 100,
+				"silenced": false,
+				"stunned": false,
+				"disarmed": false,
+				"magicimmune": false,
+				"hexed": false,
+				"muted": false,
+				"break": false,
+				"smoked": false,
+				"has_debuff": false,
+				"selected_unit": false,
+				"talent_1": true,
+				"talent_2": false,
+				"talent_3": true,
+				"talent_4": false,
+				"talent_5": true,
+				"talent_6": false,
+				"talent_7": true,
+				"talent_8": false
+			},
+			"player7": {
+				"xpos": -5281,
+				"ypos": -4671,
+				"id": 102,
+				"name": "npc_dota_hero_abaddon",
+				"level": 22,
+				"alive": true,
+				"respawn_seconds": 0,
+				"buyback_cost": 1253,
+				"buyback_cooldown": 0,
+				"health": 2520,
+				"max_health": 2520,
+				"health_percent": 100,
+				"mana": 1455,
+				"max_mana": 1455,
+				"mana_percent": 100,
+				"silenced": false,
+				"stunned": false,
+				"disarmed": false,
+				"magicimmune": false,
+				"hexed": false,
+				"muted": false,
+				"break": false,
+				"smoked": false,
+				"has_debuff": false,
+				"selected_unit": false,
+				"talent_1": false,
+				"talent_2": true,
+				"talent_3": true,
+				"talent_4": false,
+				"talent_5": true,
+				"talent_6": false,
+				"talent_7": false,
+				"talent_8": false
+			},
+			"player8": {
+				"xpos": -5141,
+				"ypos": -4834,
+				"id": 12,
+				"name": "npc_dota_hero_phantom_lancer",
+				"level": 24,
+				"alive": true,
+				"respawn_seconds": 0,
+				"buyback_cost": 1823,
+				"buyback_cooldown": 0,
+				"health": 2505,
+				"max_health": 2505,
+				"health_percent": 100,
+				"mana": 1095,
+				"max_mana": 1095,
+				"mana_percent": 100,
+				"silenced": false,
+				"stunned": false,
+				"disarmed": false,
+				"magicimmune": false,
+				"hexed": false,
+				"muted": false,
+				"break": false,
+				"smoked": false,
+				"has_debuff": false,
+				"selected_unit": false,
+				"talent_1": false,
+				"talent_2": true,
+				"talent_3": true,
+				"talent_4": false,
+				"talent_5": true,
+				"talent_6": false,
+				"talent_7": false,
+				"talent_8": false
+			},
+			"player9": {
+				"xpos": -4923,
+				"ypos": -5493,
+				"id": 86,
+				"name": "npc_dota_hero_rubick",
+				"level": 21,
+				"alive": true,
+				"respawn_seconds": 0,
+				"buyback_cost": 899,
+				"buyback_cooldown": 3766,
+				"health": 2835,
+				"max_health": 2835,
+				"health_percent": 100,
+				"mana": 2089,
+				"max_mana": 2089,
+				"mana_percent": 100,
+				"silenced": false,
+				"stunned": false,
+				"disarmed": false,
+				"magicimmune": false,
+				"hexed": false,
+				"muted": false,
+				"break": false,
+				"smoked": false,
+				"has_debuff": false,
+				"selected_unit": false,
+				"talent_1": true,
+				"talent_2": false,
+				"talent_3": true,
+				"talent_4": false,
+				"talent_5": true,
+				"talent_6": false,
+				"talent_7": false,
+				"talent_8": false
+			}
+		}
+	},
+	"abilities": {
+		"team2": {
+			"player0": {
+				"ability0": {
+					"name": "lich_frost_nova",
+					"level": 2,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				},
+				"ability1": {
+					"name": "lich_frost_shield",
+					"level": 4,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				},
+				"ability2": {
+					"name": "lich_sinister_gaze",
+					"level": 4,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				},
+				"ability3": {
+					"name": "lich_chain_frost",
+					"level": 2,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": true
+				},
+				"ability4": {
+					"name": "seasonal_throw_snowball",
+					"level": 1,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				},
+				"ability5": {
+					"name": "seasonal_summon_snowman",
+					"level": 1,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				},
+				"ability6": {
+					"name": "seasonal_festive_firework",
+					"level": 1,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				},
+				"ability7": {
+					"name": "seasonal_summon_penguin",
+					"level": 1,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				},
+				"ability8": {
+					"name": "high_five",
+					"level": 1,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				}
+			},
+			"player1": {
+				"ability0": {
+					"name": "omniknight_purification",
+					"level": 4,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				},
+				"ability1": {
+					"name": "omniknight_repel",
+					"level": 4,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				},
+				"ability2": {
+					"name": "omniknight_degen_aura",
+					"level": 4,
+					"can_cast": false,
+					"passive": true,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				},
+				"ability3": {
+					"name": "omniknight_guardian_angel",
+					"level": 3,
+					"can_cast": false,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 9,
+					"ultimate": true
+				},
+				"ability4": {
+					"name": "seasonal_throw_snowball",
+					"level": 1,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				},
+				"ability5": {
+					"name": "seasonal_summon_snowman",
+					"level": 1,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				},
+				"ability6": {
+					"name": "seasonal_festive_firework",
+					"level": 1,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				},
+				"ability7": {
+					"name": "seasonal_summon_penguin",
+					"level": 1,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				},
+				"ability8": {
+					"name": "high_five",
+					"level": 1,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				}
+			},
+			"player2": {
+				"ability0": {
+					"name": "tiny_avalanche",
+					"level": 4,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				},
+				"ability1": {
+					"name": "tiny_toss",
+					"level": 4,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				},
+				"ability2": {
+					"name": "tiny_tree_grab",
+					"level": 4,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				},
+				"ability3": {
+					"name": "tiny_tree_channel",
+					"level": 1,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				},
+				"ability4": {
+					"name": "tiny_grow",
+					"level": 3,
+					"can_cast": false,
+					"passive": true,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": true
+				},
+				"ability5": {
+					"name": "seasonal_throw_snowball",
+					"level": 1,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				},
+				"ability6": {
+					"name": "seasonal_summon_snowman",
+					"level": 1,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				},
+				"ability7": {
+					"name": "seasonal_festive_firework",
+					"level": 1,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				},
+				"ability8": {
+					"name": "seasonal_summon_penguin",
+					"level": 1,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				},
+				"ability9": {
+					"name": "high_five",
+					"level": 1,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				}
+			},
+			"player3": {
+				"ability0": {
+					"name": "morphling_waveform",
+					"level": 4,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				},
+				"ability1": {
+					"name": "morphling_adaptive_strike_agi",
+					"level": 4,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				},
+				"ability2": {
+					"name": "morphling_adaptive_strike_str",
+					"level": 4,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				},
+				"ability3": {
+					"name": "morphling_morph_agi",
+					"level": 4,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				},
+				"ability4": {
+					"name": "morphling_morph_str",
+					"level": 4,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				},
+				"ability5": {
+					"name": "morphling_replicate",
+					"level": 3,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": true
+				},
+				"ability6": {
+					"name": "seasonal_throw_snowball",
+					"level": 1,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				},
+				"ability7": {
+					"name": "seasonal_summon_snowman",
+					"level": 1,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				},
+				"ability8": {
+					"name": "seasonal_festive_firework",
+					"level": 1,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				},
+				"ability9": {
+					"name": "seasonal_summon_penguin",
+					"level": 1,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				},
+				"ability10": {
+					"name": "high_five",
+					"level": 1,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				}
+			},
+			"player4": {
+				"ability0": {
+					"name": "winter_wyvern_arctic_burn",
+					"level": 4,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				},
+				"ability1": {
+					"name": "winter_wyvern_splinter_blast",
+					"level": 4,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				},
+				"ability2": {
+					"name": "winter_wyvern_cold_embrace",
+					"level": 4,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				},
+				"ability3": {
+					"name": "winter_wyvern_winters_curse",
+					"level": 2,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": true
+				},
+				"ability4": {
+					"name": "seasonal_throw_snowball",
+					"level": 1,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				},
+				"ability5": {
+					"name": "seasonal_summon_snowman",
+					"level": 1,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				},
+				"ability6": {
+					"name": "seasonal_festive_firework",
+					"level": 1,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				},
+				"ability7": {
+					"name": "seasonal_summon_penguin",
+					"level": 1,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				},
+				"ability8": {
+					"name": "high_five",
+					"level": 1,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				}
+			}
+		},
+		"team3": {
+			"player5": {
+				"ability0": {
+					"name": "crystal_maiden_crystal_nova",
+					"level": 4,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				},
+				"ability1": {
+					"name": "crystal_maiden_frostbite",
+					"level": 4,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				},
+				"ability2": {
+					"name": "crystal_maiden_brilliance_aura",
+					"level": 4,
+					"can_cast": false,
+					"passive": true,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				},
+				"ability3": {
+					"name": "crystal_maiden_freezing_field",
+					"level": 3,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": true
+				},
+				"ability4": {
+					"name": "seasonal_throw_snowball",
+					"level": 1,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				},
+				"ability5": {
+					"name": "seasonal_summon_snowman",
+					"level": 1,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				},
+				"ability6": {
+					"name": "seasonal_festive_firework",
+					"level": 1,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				},
+				"ability7": {
+					"name": "seasonal_summon_penguin",
+					"level": 1,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				},
+				"ability8": {
+					"name": "high_five",
+					"level": 1,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				}
+			},
+			"player6": {
+				"ability0": {
+					"name": "magnataur_shockwave",
+					"level": 4,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				},
+				"ability1": {
+					"name": "magnataur_empower",
+					"level": 4,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				},
+				"ability2": {
+					"name": "magnataur_skewer",
+					"level": 4,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				},
+				"ability3": {
+					"name": "magnataur_reverse_polarity",
+					"level": 3,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": true
+				},
+				"ability4": {
+					"name": "seasonal_throw_snowball",
+					"level": 1,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				},
+				"ability5": {
+					"name": "seasonal_summon_snowman",
+					"level": 1,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				},
+				"ability6": {
+					"name": "seasonal_festive_firework",
+					"level": 1,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				},
+				"ability7": {
+					"name": "seasonal_summon_penguin",
+					"level": 1,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				},
+				"ability8": {
+					"name": "high_five",
+					"level": 1,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				}
+			},
+			"player7": {
+				"ability0": {
+					"name": "abaddon_death_coil",
+					"level": 4,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				},
+				"ability1": {
+					"name": "abaddon_aphotic_shield",
+					"level": 4,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				},
+				"ability2": {
+					"name": "abaddon_frostmourne",
+					"level": 4,
+					"can_cast": false,
+					"passive": true,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				},
+				"ability3": {
+					"name": "abaddon_borrowed_time",
+					"level": 3,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": true
+				},
+				"ability4": {
+					"name": "seasonal_throw_snowball",
+					"level": 1,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				},
+				"ability5": {
+					"name": "seasonal_summon_snowman",
+					"level": 1,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				},
+				"ability6": {
+					"name": "seasonal_festive_firework",
+					"level": 1,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				},
+				"ability7": {
+					"name": "seasonal_summon_penguin",
+					"level": 1,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				},
+				"ability8": {
+					"name": "high_five",
+					"level": 1,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				}
+			},
+			"player8": {
+				"ability0": {
+					"name": "phantom_lancer_spirit_lance",
+					"level": 4,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				},
+				"ability1": {
+					"name": "phantom_lancer_doppelwalk",
+					"level": 4,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				},
+				"ability2": {
+					"name": "phantom_lancer_phantom_edge",
+					"level": 4,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				},
+				"ability3": {
+					"name": "phantom_lancer_juxtapose",
+					"level": 3,
+					"can_cast": false,
+					"passive": true,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": true
+				},
+				"ability4": {
+					"name": "seasonal_throw_snowball",
+					"level": 1,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				},
+				"ability5": {
+					"name": "seasonal_summon_snowman",
+					"level": 1,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				},
+				"ability6": {
+					"name": "seasonal_festive_firework",
+					"level": 1,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				},
+				"ability7": {
+					"name": "seasonal_summon_penguin",
+					"level": 1,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				},
+				"ability8": {
+					"name": "high_five",
+					"level": 1,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				}
+			},
+			"player9": {
+				"ability0": {
+					"name": "rubick_telekinesis",
+					"level": 4,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				},
+				"ability1": {
+					"name": "rubick_fade_bolt",
+					"level": 4,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				},
+				"ability2": {
+					"name": "rubick_arcane_supremacy",
+					"level": 4,
+					"can_cast": false,
+					"passive": true,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				},
+				"ability3": {
+					"name": "tiny_toss",
+					"level": 4,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				},
+				"ability4": {
+					"name": "rubick_empty2",
+					"level": 0,
+					"can_cast": false,
+					"passive": true,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				},
+				"ability5": {
+					"name": "rubick_spell_steal",
+					"level": 3,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": true
+				},
+				"ability6": {
+					"name": "seasonal_throw_snowball",
+					"level": 1,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				},
+				"ability7": {
+					"name": "seasonal_summon_snowman",
+					"level": 1,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				},
+				"ability8": {
+					"name": "seasonal_festive_firework",
+					"level": 1,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				},
+				"ability9": {
+					"name": "seasonal_summon_penguin",
+					"level": 1,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				},
+				"ability10": {
+					"name": "high_five",
+					"level": 1,
+					"can_cast": true,
+					"passive": false,
+					"ability_active": true,
+					"cooldown": 0,
+					"ultimate": false
+				}
+			}
+		}
+	},
+	"items": {
+		"team2": {
+			"player0": {
+				"slot0": {
+					"name": "item_tranquil_boots",
+					"purchaser": 0,
+					"passive": true
+				},
+				"slot1": {
+					"name": "item_ironwood_tree",
+					"purchaser": -1,
+					"can_cast": true,
+					"cooldown": 0,
+					"passive": false
+				},
+				"slot2": {
+					"name": "item_ward_observer",
+					"purchaser": 0,
+					"can_cast": true,
+					"cooldown": 0,
+					"passive": false,
+					"charges": 1
+				},
+				"slot3": {
+					"name": "item_magic_wand",
+					"purchaser": 0,
+					"can_cast": true,
+					"cooldown": 0,
+					"passive": false,
+					"charges": 11
+				},
+				"slot4": {
+					"name": "item_cloak",
+					"purchaser": 0,
+					"passive": true
+				},
+				"slot5": {
+					"name": "item_wind_lace",
+					"purchaser": 0,
+					"passive": true
+				},
+				"slot6": {
+					"name": "empty"
+				},
+				"slot7": {
+					"name": "empty"
+				},
+				"slot8": {
+					"name": "empty"
+				},
+				"slot9": {
+					"name": "empty"
+				},
+				"stash0": {
+					"name": "empty"
+				},
+				"stash1": {
+					"name": "empty"
+				},
+				"stash2": {
+					"name": "empty"
+				},
+				"stash3": {
+					"name": "empty"
+				},
+				"stash4": {
+					"name": "empty"
+				},
+				"stash5": {
+					"name": "empty"
+				}
+			},
+			"player1": {
+				"slot0": {
+					"name": "item_phase_boots",
+					"purchaser": 1,
+					"can_cast": true,
+					"cooldown": 0,
+					"passive": false
+				},
+				"slot1": {
+					"name": "item_magic_wand",
+					"purchaser": 1,
+					"can_cast": true,
+					"cooldown": 0,
+					"passive": false,
+					"charges": 1
+				},
+				"slot2": {
+					"name": "item_radiance",
+					"purchaser": 1,
+					"can_cast": true,
+					"cooldown": 0,
+					"passive": false
+				},
+				"slot3": {
+					"name": "item_hood_of_defiance",
+					"purchaser": 1,
+					"can_cast": true,
+					"cooldown": 0,
+					"passive": false
+				},
+				"slot4": {
+					"name": "item_vladmir",
+					"purchaser": 1,
+					"passive": true
+				},
+				"slot5": {
+					"name": "item_ancient_janggo",
+					"purchaser": 1,
+					"can_cast": false,
+					"cooldown": 0,
+					"passive": false,
+					"charges": 0
+				},
+				"slot6": {
+					"name": "empty"
+				},
+				"slot7": {
+					"name": "item_iron_talon",
+					"purchaser": -1,
+					"can_cast": true,
+					"cooldown": 0,
+					"passive": false
+				},
+				"slot8": {
+					"name": "empty"
+				},
+				"slot9": {
+					"name": "empty"
+				},
+				"stash0": {
+					"name": "empty"
+				},
+				"stash1": {
+					"name": "empty"
+				},
+				"stash2": {
+					"name": "empty"
+				},
+				"stash3": {
+					"name": "empty"
+				},
+				"stash4": {
+					"name": "empty"
+				},
+				"stash5": {
+					"name": "empty"
+				}
+			},
+			"player2": {
+				"slot0": {
+					"name": "item_echo_sabre",
+					"purchaser": 2,
+					"passive": true
+				},
+				"slot1": {
+					"name": "item_blink",
+					"purchaser": 2,
+					"can_cast": true,
+					"cooldown": 0,
+					"passive": false
+				},
+				"slot2": {
+					"name": "item_ultimate_scepter",
+					"purchaser": 2,
+					"passive": true
+				},
+				"slot3": {
+					"name": "item_phase_boots",
+					"purchaser": 2,
+					"can_cast": true,
+					"cooldown": 0,
+					"passive": false
+				},
+				"slot4": {
+					"name": "item_spider_legs",
+					"purchaser": -1,
+					"can_cast": true,
+					"cooldown": 0,
+					"passive": false
+				},
+				"slot5": {
+					"name": "item_grove_bow",
+					"purchaser": -1,
+					"passive": true
+				},
+				"slot6": {
+					"name": "item_recipe_vambrace",
+					"purchaser": -1,
+					"can_cast": true,
+					"cooldown": 0,
+					"passive": false
+				},
+				"slot7": {
+					"name": "item_bottle",
+					"purchaser": 2,
+					"contains_rune": "empty",
+					"can_cast": true,
+					"cooldown": 0,
+					"passive": false,
+					"charges": 3
+				},
+				"slot8": {
+					"name": "item_clumsy_net",
+					"purchaser": -1,
+					"can_cast": true,
+					"cooldown": 0,
+					"passive": false
+				},
+				"slot9": {
+					"name": "item_ward_sentry",
+					"purchaser": 0,
+					"can_cast": true,
+					"cooldown": 0,
+					"passive": false,
+					"charges": 1
+				},
+				"stash0": {
+					"name": "empty"
+				},
+				"stash1": {
+					"name": "empty"
+				},
+				"stash2": {
+					"name": "empty"
+				},
+				"stash3": {
+					"name": "empty"
+				},
+				"stash4": {
+					"name": "empty"
+				},
+				"stash5": {
+					"name": "empty"
+				}
+			},
+			"player3": {
+				"slot0": {
+					"name": "item_power_treads",
+					"purchaser": 3,
+					"can_cast": true,
+					"cooldown": 0,
+					"passive": false
+				},
+				"slot1": {
+					"name": "item_greater_faerie_fire",
+					"purchaser": -1,
+					"can_cast": true,
+					"cooldown": 0,
+					"passive": false,
+					"charges": 1
+				},
+				"slot2": {
+					"name": "item_black_king_bar",
+					"purchaser": 3,
+					"can_cast": true,
+					"cooldown": 0,
+					"passive": false
+				},
+				"slot3": {
+					"name": "item_diffusal_blade",
+					"purchaser": 3,
+					"can_cast": true,
+					"cooldown": 0,
+					"passive": false
+				},
+				"slot4": {
+					"name": "item_skadi",
+					"purchaser": 3,
+					"passive": true
+				},
+				"slot5": {
+					"name": "item_vambrace",
+					"purchaser": -1,
+					"passive": true
+				},
+				"slot6": {
+					"name": "empty"
+				},
+				"slot7": {
+					"name": "empty"
+				},
+				"slot8": {
+					"name": "empty"
+				},
+				"slot9": {
+					"name": "empty"
+				},
+				"stash0": {
+					"name": "empty"
+				},
+				"stash1": {
+					"name": "empty"
+				},
+				"stash2": {
+					"name": "empty"
+				},
+				"stash3": {
+					"name": "empty"
+				},
+				"stash4": {
+					"name": "empty"
+				},
+				"stash5": {
+					"name": "empty"
+				}
+			},
+			"player4": {
+				"slot0": {
+					"name": "item_aether_lens",
+					"purchaser": 4,
+					"passive": true
+				},
+				"slot1": {
+					"name": "item_blink",
+					"purchaser": 4,
+					"can_cast": true,
+					"cooldown": 0,
+					"passive": false
+				},
+				"slot2": {
+					"name": "item_ghost",
+					"purchaser": 4,
+					"can_cast": true,
+					"cooldown": 0,
+					"passive": false
+				},
+				"slot3": {
+					"name": "item_soul_ring",
+					"purchaser": 4,
+					"can_cast": true,
+					"cooldown": 0,
+					"passive": false
+				},
+				"slot4": {
+					"name": "item_tranquil_boots",
+					"purchaser": 4,
+					"passive": true
+				},
+				"slot5": {
+					"name": "empty"
+				},
+				"slot6": {
+					"name": "empty"
+				},
+				"slot7": {
+					"name": "empty"
+				},
+				"slot8": {
+					"name": "empty"
+				},
+				"slot9": {
+					"name": "empty"
+				},
+				"stash0": {
+					"name": "empty"
+				},
+				"stash1": {
+					"name": "empty"
+				},
+				"stash2": {
+					"name": "empty"
+				},
+				"stash3": {
+					"name": "empty"
+				},
+				"stash4": {
+					"name": "empty"
+				},
+				"stash5": {
+					"name": "empty"
+				}
+			}
+		},
+		"team3": {
+			"player5": {
+				"slot0": {
+					"name": "item_magic_wand",
+					"purchaser": 5,
+					"can_cast": true,
+					"cooldown": 0,
+					"passive": false,
+					"charges": 4
+				},
+				"slot1": {
+					"name": "item_tranquil_boots",
+					"purchaser": 5,
+					"passive": true
+				},
+				"slot2": {
+					"name": "item_glimmer_cape",
+					"purchaser": 5,
+					"can_cast": true,
+					"cooldown": 0,
+					"passive": false
+				},
+				"slot3": {
+					"name": "item_force_staff",
+					"purchaser": 5,
+					"can_cast": true,
+					"cooldown": 0,
+					"passive": false
+				},
+				"slot4": {
+					"name": "item_orb_of_destruction",
+					"purchaser": -1,
+					"passive": true
+				},
+				"slot5": {
+					"name": "empty"
+				},
+				"slot6": {
+					"name": "item_infused_raindrop",
+					"purchaser": 5,
+					"passive": true,
+					"charges": 3
+				},
+				"slot7": {
+					"name": "empty"
+				},
+				"slot8": {
+					"name": "empty"
+				},
+				"slot9": {
+					"name": "empty"
+				},
+				"stash0": {
+					"name": "empty"
+				},
+				"stash1": {
+					"name": "empty"
+				},
+				"stash2": {
+					"name": "empty"
+				},
+				"stash3": {
+					"name": "empty"
+				},
+				"stash4": {
+					"name": "empty"
+				},
+				"stash5": {
+					"name": "empty"
+				}
+			},
+			"player6": {
+				"slot0": {
+					"name": "item_power_treads",
+					"purchaser": 6,
+					"can_cast": true,
+					"cooldown": 0,
+					"passive": false
+				},
+				"slot1": {
+					"name": "item_blink",
+					"purchaser": 6,
+					"can_cast": true,
+					"cooldown": 0,
+					"passive": false
+				},
+				"slot2": {
+					"name": "item_assault",
+					"purchaser": 6,
+					"passive": true
+				},
+				"slot3": {
+					"name": "item_satanic",
+					"purchaser": 6,
+					"can_cast": true,
+					"cooldown": 0,
+					"passive": false
+				},
+				"slot4": {
+					"name": "item_black_king_bar",
+					"purchaser": 6,
+					"can_cast": true,
+					"cooldown": 0,
+					"passive": false
+				},
+				"slot5": {
+					"name": "item_echo_sabre",
+					"purchaser": 6,
+					"passive": true
+				},
+				"slot6": {
+					"name": "item_magic_wand",
+					"purchaser": 6,
+					"can_cast": false,
+					"cooldown": 0,
+					"passive": false,
+					"charges": 0
+				},
+				"slot7": {
+					"name": "empty"
+				},
+				"slot8": {
+					"name": "item_lifesteal",
+					"purchaser": 6,
+					"passive": true
+				},
+				"slot9": {
+					"name": "empty"
+				},
+				"stash0": {
+					"name": "empty"
+				},
+				"stash1": {
+					"name": "empty"
+				},
+				"stash2": {
+					"name": "empty"
+				},
+				"stash3": {
+					"name": "empty"
+				},
+				"stash4": {
+					"name": "empty"
+				},
+				"stash5": {
+					"name": "empty"
+				}
+			},
+			"player7": {
+				"slot0": {
+					"name": "item_ancient_janggo",
+					"purchaser": 7,
+					"can_cast": true,
+					"cooldown": 0,
+					"passive": false,
+					"charges": 1
+				},
+				"slot1": {
+					"name": "item_phase_boots",
+					"purchaser": 7,
+					"can_cast": true,
+					"cooldown": 0,
+					"passive": false
+				},
+				"slot2": {
+					"name": "item_vladmir",
+					"purchaser": 7,
+					"passive": true
+				},
+				"slot3": {
+					"name": "item_force_staff",
+					"purchaser": 7,
+					"can_cast": true,
+					"cooldown": 0,
+					"passive": false
+				},
+				"slot4": {
+					"name": "item_sheepstick",
+					"purchaser": 7,
+					"can_cast": true,
+					"cooldown": 0,
+					"passive": false
+				},
+				"slot5": {
+					"name": "item_quickening_charm",
+					"purchaser": -1,
+					"passive": true
+				},
+				"slot6": {
+					"name": "empty"
+				},
+				"slot7": {
+					"name": "item_magic_wand",
+					"purchaser": 7,
+					"can_cast": false,
+					"cooldown": 0,
+					"passive": false,
+					"charges": 0
+				},
+				"slot8": {
+					"name": "item_quelling_blade",
+					"purchaser": 7,
+					"can_cast": true,
+					"cooldown": 0,
+					"passive": false
+				},
+				"slot9": {
+					"name": "empty"
+				},
+				"stash0": {
+					"name": "empty"
+				},
+				"stash1": {
+					"name": "empty"
+				},
+				"stash2": {
+					"name": "empty"
+				},
+				"stash3": {
+					"name": "empty"
+				},
+				"stash4": {
+					"name": "empty"
+				},
+				"stash5": {
+					"name": "empty"
+				}
+			},
+			"player8": {
+				"slot0": {
+					"name": "item_power_treads",
+					"purchaser": 8,
+					"can_cast": true,
+					"cooldown": 0,
+					"passive": false
+				},
+				"slot1": {
+					"name": "item_manta",
+					"purchaser": 8,
+					"can_cast": true,
+					"cooldown": 0,
+					"passive": false
+				},
+				"slot2": {
+					"name": "item_abyssal_blade",
+					"purchaser": 8,
+					"can_cast": true,
+					"cooldown": 0,
+					"passive": false
+				},
+				"slot3": {
+					"name": "item_diffusal_blade",
+					"purchaser": 8,
+					"can_cast": true,
+					"cooldown": 0,
+					"passive": false
+				},
+				"slot4": {
+					"name": "empty"
+				},
+				"slot5": {
+					"name": "item_hood_of_defiance",
+					"purchaser": 8,
+					"can_cast": true,
+					"cooldown": 0,
+					"passive": false
+				},
+				"slot6": {
+					"name": "empty"
+				},
+				"slot7": {
+					"name": "empty"
+				},
+				"slot8": {
+					"name": "item_poor_mans_shield",
+					"purchaser": -1,
+					"passive": true
+				},
+				"slot9": {
+					"name": "item_ring_of_aquila",
+					"purchaser": -1,
+					"can_cast": true,
+					"cooldown": 0,
+					"passive": false
+				},
+				"stash0": {
+					"name": "empty"
+				},
+				"stash1": {
+					"name": "empty"
+				},
+				"stash2": {
+					"name": "empty"
+				},
+				"stash3": {
+					"name": "empty"
+				},
+				"stash4": {
+					"name": "empty"
+				},
+				"stash5": {
+					"name": "empty"
+				}
+			},
+			"player9": {
+				"slot0": {
+					"name": "item_blink",
+					"purchaser": 9,
+					"can_cast": true,
+					"cooldown": 0,
+					"passive": false
+				},
+				"slot1": {
+					"name": "item_nether_shawl",
+					"purchaser": -1,
+					"passive": true
+				},
+				"slot2": {
+					"name": "item_faded_broach",
+					"purchaser": -1,
+					"passive": true
+				},
+				"slot3": {
+					"name": "item_spider_legs",
+					"purchaser": -1,
+					"can_cast": true,
+					"cooldown": 0,
+					"passive": false
+				},
+				"slot4": {
+					"name": "item_aether_lens",
+					"purchaser": 9,
+					"passive": true
+				},
+				"slot5": {
+					"name": "item_ultimate_scepter",
+					"purchaser": 9,
+					"passive": true
+				},
+				"slot6": {
+					"name": "item_bracer",
+					"purchaser": 7,
+					"passive": true
+				},
+				"slot7": {
+					"name": "empty"
+				},
+				"slot8": {
+					"name": "empty"
+				},
+				"slot9": {
+					"name": "empty"
+				},
+				"stash0": {
+					"name": "empty"
+				},
+				"stash1": {
+					"name": "empty"
+				},
+				"stash2": {
+					"name": "empty"
+				},
+				"stash3": {
+					"name": "empty"
+				},
+				"stash4": {
+					"name": "empty"
+				},
+				"stash5": {
+					"name": "empty"
+				}
+			}
+		}
+	},
+	"draft": {
+		"activeteam": 0,
+		"pick": false,
+		"activeteam_time_remaining": 0,
+		"radiant_bonus_time": 0,
+		"dire_bonus_time": 0,
+		"team2": {
+			"home_team": false,
+			"pick0_id": 19,
+			"pick0_class": "tiny",
+			"pick1_id": 31,
+			"pick1_class": "lich",
+			"pick2_id": 10,
+			"pick2_class": "morphling",
+			"pick3_id": 57,
+			"pick3_class": "omniknight",
+			"pick4_id": 112,
+			"pick4_class": "winter_wyvern",
+			"ban0_id": 15,
+			"ban0_class": "razor",
+			"ban1_id": 83,
+			"ban1_class": "treant",
+			"ban2_id": 6,
+			"ban2_class": "drow_ranger",
+			"ban3_id": 13,
+			"ban3_class": "puck",
+			"ban4_id": 76,
+			"ban4_class": "obsidian_destroyer",
+			"ban5_id": 70,
+			"ban5_class": "ursa"
+		},
+		"team3": {
+			"home_team": true,
+			"pick0_id": 86,
+			"pick0_class": "rubick",
+			"pick1_id": 102,
+			"pick1_class": "abaddon",
+			"pick2_id": 5,
+			"pick2_class": "crystal_maiden",
+			"pick3_id": 97,
+			"pick3_class": "magnataur",
+			"pick4_id": 12,
+			"pick4_class": "phantom_lancer",
+			"ban0_id": 69,
+			"ban0_class": "doom_bringer",
+			"ban1_id": 91,
+			"ban1_class": "wisp",
+			"ban2_id": 36,
+			"ban2_class": "necrolyte",
+			"ban3_id": 93,
+			"ban3_class": "slark",
+			"ban4_id": 4,
+			"ban4_class": "bloodseeker",
+			"ban5_id": 11,
+			"ban5_class": "nevermore"
+		}
+	},
+	"wearables": {
+		"team2": {
+			"player0": {
+				"wearable0": 7576,
+				"wearable1": 9756,
+				"wearable2": 7065,
+				"wearable3": 4852,
+				"wearable4": 571,
+				"wearable5": 8632,
+				"wearable6": 506,
+				"wearable7": 647,
+				"wearable8": 17528,
+				"wearable9": 647,
+				"wearable10": 17528
+			},
+			"player1": {
+				"wearable0": 7580,
+				"wearable1": 9748,
+				"wearable2": 8955,
+				"wearable3": 8954,
+				"wearable4": 7093,
+				"wearable5": 45,
+				"wearable6": 9762,
+				"wearable7": 562,
+				"wearable8": 17528,
+				"wearable9": 17528
+			},
+			"player2": {
+				"wearable0": 12534,
+				"style0": 0,
+				"wearable1": 12530,
+				"wearable2": 12531,
+				"wearable3": 12532,
+				"wearable4": 12533,
+				"wearable5": 12920,
+				"wearable6": 516,
+				"wearable7": 17528,
+				"wearable8": 17528
+			},
+			"player3": {
+				"wearable0": 647,
+				"wearable1": 17528,
+				"wearable2": 647,
+				"wearable3": 17528,
+				"wearable4": 7603,
+				"wearable5": 4296,
+				"wearable6": 7559,
+				"wearable7": 6833,
+				"wearable8": 7558,
+				"wearable9": 8632,
+				"wearable10": 507
+			},
+			"player4": {
+				"wearable0": 8017,
+				"wearable1": 552,
+				"wearable2": 9167,
+				"wearable3": 553,
+				"wearable4": 647,
+				"wearable5": 17528,
+				"wearable6": 647,
+				"wearable7": 17528
+			}
+		},
+		"team3": {
+			"player5": {
+				"wearable0": 6065,
+				"wearable1": 8405,
+				"wearable2": 9625,
+				"wearable3": 9205,
+				"wearable4": 9626,
+				"wearable5": 9041,
+				"wearable6": 502,
+				"wearable7": 17528,
+				"wearable8": 17528
+			},
+			"player6": {
+				"wearable0": 8300,
+				"wearable1": 9971,
+				"wearable2": 9972,
+				"wearable3": 9974,
+				"wearable4": 9973,
+				"wearable5": 8632,
+				"wearable6": 17528,
+				"wearable7": 17528
+			},
+			"player7": {
+				"wearable0": 13457,
+				"wearable1": 13458,
+				"wearable2": 13460,
+				"wearable3": 13459,
+				"wearable4": 13461,
+				"wearable5": 8632,
+				"wearable6": 522,
+				"wearable7": 17528,
+				"wearable8": 17528
+			},
+			"player8": {
+				"wearable0": 6620,
+				"wearable1": 6621,
+				"wearable2": 7817,
+				"wearable3": 6619,
+				"wearable4": 6753,
+				"wearable5": 8632,
+				"wearable6": 127,
+				"wearable7": 647,
+				"wearable8": 17528,
+				"wearable9": 647,
+				"wearable10": 17528
+			},
+			"player9": {
+				"wearable0": 9521,
+				"wearable1": 12392,
+				"style1": 0,
+				"wearable2": 12451,
+				"style2": 25,
+				"wearable3": 9062,
+				"wearable4": 8061,
+				"wearable5": 544,
+				"wearable6": 12427,
+				"wearable7": 647,
+				"wearable8": 17528,
+				"wearable9": 647,
+				"wearable10": 17528
+			}
+		}
+	},
+	"previously": {
+		"map": {
+			"game_time": 3421
+		},
+		"player": {
+			"team2": {
+				"player1": {
+					"gold": 730,
+					"gold_unreliable": 641,
+					"gold_from_income": 5457,
+					"net_worth": 13710
+				}
+			}
+		},
+		"hero": {
+			"team2": {
+				"player2": {
+					"health": 2060
+				}
+			}
+		},
+		"abilities": {
+			"team2": {
+				"player1": {
+					"ability3": {
+						"cooldown": 10
+					}
+				}
+			}
+		}
+	}
+}

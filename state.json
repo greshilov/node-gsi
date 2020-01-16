@@ -1,0 +1,273 @@
+{
+	"buildings": {
+		"radiant": {
+			"dota_goodguys_tower1_top": {
+				"health": 1800,
+				"max_health": 1800
+			},
+			"dota_goodguys_tower2_top": {
+				"health": 2000,
+				"max_health": 2000
+			},
+			"dota_goodguys_tower3_top": {
+				"health": 2000,
+				"max_health": 2000
+			},
+			"dota_goodguys_tower1_mid": {
+				"health": 1800,
+				"max_health": 1800
+			},
+			"dota_goodguys_tower2_mid": {
+				"health": 2000,
+				"max_health": 2000
+			},
+			"dota_goodguys_tower3_mid": {
+				"health": 2000,
+				"max_health": 2000
+			},
+			"dota_goodguys_tower1_bot": {
+				"health": 1800,
+				"max_health": 1800
+			},
+			"dota_goodguys_tower2_bot": {
+				"health": 2000,
+				"max_health": 2000
+			},
+			"dota_goodguys_tower3_bot": {
+				"health": 2000,
+				"max_health": 2000
+			},
+			"dota_goodguys_tower4_top": {
+				"health": 2100,
+				"max_health": 2100
+			},
+			"dota_goodguys_tower4_bot": {
+				"health": 2100,
+				"max_health": 2100
+			},
+			"good_rax_melee_top": {
+				"health": 2200,
+				"max_health": 2200
+			},
+			"good_rax_range_top": {
+				"health": 1300,
+				"max_health": 1300
+			},
+			"good_rax_melee_mid": {
+				"health": 2200,
+				"max_health": 2200
+			},
+			"good_rax_range_mid": {
+				"health": 1300,
+				"max_health": 1300
+			},
+			"good_rax_melee_bot": {
+				"health": 2200,
+				"max_health": 2200
+			},
+			"good_rax_range_bot": {
+				"health": 1300,
+				"max_health": 1300
+			},
+			"dota_goodguys_fort": {
+				"health": 4500,
+				"max_health": 4500
+			}
+		}
+	},
+	"provider": {
+		"name": "Dota 2",
+		"appid": 570,
+		"version": 47,
+		"timestamp": 1578868976
+	},
+	"map": {
+		"name": "start",
+		"matchid": "0",
+		"game_time": 42,
+		"clock_time": -48,
+		"daytime": true,
+		"nightstalker_night": false,
+		"game_state": "DOTA_GAMERULES_STATE_PRE_GAME",
+		"paused": false,
+		"win_team": "none",
+		"customgamename": "",
+		"ward_purchase_cooldown": 0
+	},
+	"player": {
+		"steamid": "76561198853924089",
+		"name": "Slavik Upyachkovich GDPR Master",
+		"activity": "playing",
+		"kills": 0,
+		"deaths": 0,
+		"assists": 0,
+		"last_hits": 0,
+		"denies": 0,
+		"kill_streak": 0,
+		"commands_issued": 0,
+		"kill_list": {
+
+		},
+		"team_name": "radiant",
+		"gold": 600,
+		"gold_reliable": 0,
+		"gold_unreliable": 600,
+		"gold_from_hero_kills": 0,
+		"gold_from_creep_kills": 0,
+		"gold_from_income": 0,
+		"gold_from_shared": 0,
+		"gpm": 0,
+		"xpm": 0
+	},
+	"hero": {
+		"xpos": -6700,
+		"ypos": -6700,
+		"id": 38,
+		"name": "npc_dota_hero_beastmaster",
+		"level": 1,
+		"alive": true,
+		"respawn_seconds": 0,
+		"buyback_cost": 150,
+		"buyback_cooldown": 0,
+		"health": 660,
+		"max_health": 660,
+		"health_percent": 100,
+		"mana": 267,
+		"max_mana": 267,
+		"mana_percent": 100,
+		"silenced": false,
+		"stunned": false,
+		"disarmed": false,
+		"magicimmune": false,
+		"hexed": false,
+		"muted": false,
+		"break": false,
+		"smoked": false,
+		"has_debuff": false,
+		"talent_1": false,
+		"talent_2": false,
+		"talent_3": false,
+		"talent_4": false,
+		"talent_5": false,
+		"talent_6": false,
+		"talent_7": false,
+		"talent_8": false
+	},
+	"abilities": {
+		"ability0": {
+			"name": "beastmaster_wild_axes",
+			"level": 0,
+			"can_cast": false,
+			"passive": false,
+			"ability_active": true,
+			"cooldown": 0,
+			"ultimate": false
+		},
+		"ability1": {
+			"name": "beastmaster_call_of_the_wild_boar",
+			"level": 0,
+			"can_cast": false,
+			"passive": false,
+			"ability_active": true,
+			"cooldown": 0,
+			"ultimate": false
+		},
+		"ability2": {
+			"name": "beastmaster_call_of_the_wild_hawk",
+			"level": 0,
+			"can_cast": false,
+			"passive": false,
+			"ability_active": true,
+			"cooldown": 0,
+			"ultimate": false
+		},
+		"ability3": {
+			"name": "beastmaster_inner_beast",
+			"level": 0,
+			"can_cast": false,
+			"passive": true,
+			"ability_active": true,
+			"cooldown": 0,
+			"ultimate": false
+		},
+		"ability4": {
+			"name": "beastmaster_primal_roar",
+			"level": 0,
+			"can_cast": false,
+			"passive": false,
+			"ability_active": true,
+			"cooldown": 0,
+			"ultimate": true
+		}
+	},
+	"items": {
+		"slot0": {
+			"name": "empty"
+		},
+		"slot1": {
+			"name": "empty"
+		},
+		"slot2": {
+			"name": "empty"
+		},
+		"slot3": {
+			"name": "empty"
+		},
+		"slot4": {
+			"name": "empty"
+		},
+		"slot5": {
+			"name": "empty"
+		},
+		"slot6": {
+			"name": "empty"
+		},
+		"slot7": {
+			"name": "empty"
+		},
+		"slot8": {
+			"name": "empty"
+		},
+		"slot9": {
+			"name": "empty"
+		},
+		"stash0": {
+			"name": "empty"
+		},
+		"stash1": {
+			"name": "empty"
+		},
+		"stash2": {
+			"name": "empty"
+		},
+		"stash3": {
+			"name": "empty"
+		},
+		"stash4": {
+			"name": "empty"
+		},
+		"stash5": {
+			"name": "empty"
+		}
+	},
+	"draft": {
+
+	},
+	"wearables": {
+		"wearable0": 313,
+		"wearable1": 314,
+		"wearable2": 315,
+		"wearable3": 316,
+		"wearable4": 317,
+		"wearable5": 8634,
+		"wearable6": 8633,
+		"wearable7": 8632,
+		"wearable8": 17528
+	},
+	"previously": {
+		"map": {
+			"game_time": 41,
+			"clock_time": -49
+		}
+	}
+}
