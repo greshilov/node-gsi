@@ -1,25 +1,16 @@
 import { EventEmitter } from 'events';
-import * as fs from 'fs';
 import * as http from 'http';
 
-async function writeToFile(path: string, data: string) {
-  try {
-    await fs.promises.writeFile(path, data);
-  } catch (error) {
-    console.error(error);
-  }
-}
-
-export enum GSIEvents {
-  State,
+export enum BasicEvent {
+  RawState = 'raw-state',
 }
 
 export abstract class GSIServer {
   public events: EventEmitter;
+  public server: http.Server;
 
   private debug: boolean;
   private url: string;
-  private server: http.Server;
 
   constructor(url: string = '/', debug: boolean = false) {
     if (!url.startsWith('/')) {
@@ -42,7 +33,7 @@ export abstract class GSIServer {
     this.server.close();
   }
 
-  public abstract parseState(rawObject: object): any;
+  public abstract feedState(rawObject: object): any;
 
   private async handleRequest(req: http.IncomingMessage, res: http.ServerResponse) {
     res.setHeader('Content-Type', 'text/html');
@@ -81,9 +72,8 @@ export abstract class GSIServer {
     const content = chunks.join();
     try {
       const rawState = JSON.parse(content);
-      // await writeToFile('./state.json', content);
-      const parsedState = this.parseState(rawState);
-      this.events.emit('state', parsedState);
+      this.events.emit(BasicEvent.RawState, rawState);
+      this.feedState(rawState);
       return [200, ''];
     } catch (e) {
       if (this.debug) {

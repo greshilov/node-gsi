@@ -1,12 +1,12 @@
 import { GSIServer } from '../GSIServer';
 import {
-  IAbility,
+  Dota2Event,
   IBuildings,
-  IDota2ObserverState,
+  IDota2ObserverStateEvent,
+  IDota2StateEvent,
   IHero,
   IItemContainer,
   IPlayer,
-  IPreviousObserver,
   IProvider,
   IWearable,
   TeamType,
@@ -35,9 +35,29 @@ function* observerStateGenerator(teamPlayerObj: any) {
 }
 
 export class Dota2GSIServer extends GSIServer {
-  public parseState(rawState: any) {
-    const observerMode = rawState['player'] !== undefined && rawState['player']['team2'] !== undefined;
+  public isObserverMode(rawState: any): boolean {
+    return rawState['player'] !== undefined && rawState['player']['team2'] !== undefined;
+  }
 
+  public feedState(rawState: any): void {
+    const observerMode = this.isObserverMode(rawState);
+    const state = this.parseState(rawState, observerMode);
+    const changes = this.parseState(rawState.previously, observerMode);
+
+    if (observerMode) {
+      this.events.emit(Dota2Event.Dota2ObserverState, {
+        state,
+        changes,
+      } as IDota2ObserverStateEvent);
+    } else {
+      this.events.emit(Dota2Event.Dota2State, {
+        state,
+        changes,
+      } as IDota2StateEvent);
+    }
+  }
+
+  private parseState(rawState: any, observerMode: boolean): any {
     let buildings = null;
     if (checkKey(rawState, 'buildings')) {
       const direBuildings = rawState['buildings'][TeamType.Dire];
@@ -138,7 +158,6 @@ export class Dota2GSIServer extends GSIServer {
       items,
       wearables,
       draft,
-      previous: {} as IPreviousObserver,
-    } as IDota2ObserverState;
+    };
   }
 }

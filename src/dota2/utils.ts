@@ -1,7 +1,7 @@
 import { TeamType } from './interface';
 
 export function checkKey(rawObject: any, key: string) {
-  return key in rawObject && Object.keys(rawObject[key]).length !== 0;
+  return rawObject && key in rawObject && Object.keys(rawObject[key]).length !== 0;
 }
 
 export function getTeam(teamName: string) {
@@ -11,6 +11,6 @@ export function getTeam(teamName: string) {
     case TeamType.Radiant:
       return TeamType.Radiant;
     default:
-      return undefined;
+      return null;
   }
 }

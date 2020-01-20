@@ -1,10 +1,25 @@
 type DeepPartial<T> = {
-  [P in keyof T]?: DeepPartial<T[P]>;
+  [P in keyof T]: T[P] | null;
 };
 
 export enum TeamType {
   Dire = 'dire',
   Radiant = 'radiant',
+}
+
+export enum Dota2Event {
+  Dota2State = 'dota2-state',
+  Dota2ObserverState = 'dota2-observer-state',
+}
+
+export interface IDota2StateEvent {
+  state: IDota2State;
+  changes: IDota2State;
+}
+
+export interface IDota2ObserverStateEvent {
+  state: IDota2ObserverState;
+  changes: IDota2ObserverState;
 }
 
 export interface IDota2BaseState {
@@ -20,7 +35,6 @@ export interface IDota2State extends IDota2BaseState {
   items: IItemContainer | null;
   wearables: IWearable | null;
   draft: IDraft | null;
-  previous: null;
 }
 
 export interface IDota2ObserverState extends IDota2BaseState {
@@ -31,7 +45,6 @@ export interface IDota2ObserverState extends IDota2BaseState {
   items: IItemContainer[] | null;
   wearables: IWearable[] | null;
   draft: IDraft | null;
-  previous: IPreviousObserver | null;
 }
 
 export interface IBuildings {
@@ -189,5 +202,3 @@ export interface IWearbleItem {
   wearable: number;
   style?: number;
 }
-
-export type IPreviousObserver = DeepPartial<IDota2ObserverState>;

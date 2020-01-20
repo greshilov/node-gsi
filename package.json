@@ -1,6 +1,6 @@
 {
   "name": "node-gsi",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -8,12 +8,7 @@
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "tslint -p tsconfig.json",
-    "test": "jest --config jestconfig.json",
-    "prepare": "npm run build",
-    "preversion": "npm run lint",
-    "version": "npm run format && git add -A src",
-    "postversion": "git push && git push --tags",
-    "start": "npm run build && node ./lib/index.js"
+    "test": "jest --config jestconfig.json"
   },
   "repository": {
     "type": "git",
@@ -31,8 +26,9 @@
   },
   "homepage": "https://github.com/greshilov/node-gsi#readme",
   "devDependencies": {
-    "@types/jest": "^24.0.25",
+    "@types/jest": "^24.9.0",
     "@types/node": "^13.1.6",
+    "@types/supertest": "^2.0.8",
     "jest": "^24.9.0",
     "prettier": "^1.19.1",
     "ts-jest": "^24.3.0",

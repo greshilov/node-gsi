@@ -1,18 +1,23 @@
 
 # Usage example
+See both TypeScript and JavaScript examples in `examples` dir. TS quickstart:
 ```
-import { Dota2GSIServer } from 'node-gsi/dota2/Dota2GSIServer';
-import { IDota2ObserverState, IDota2State } from 'node-gsi/dota2/interface';
+import { 
+  Dota2GSIServer,
+  Dota2Event,
+  IDota2StateEvent,
+} from 'node-gsi';
+  
+const debug = true;
+const server = new Dota2GSIServer('/gsi', debug);
 
-const server = new Dota2GSIServer('/gsi', 9001);
-
-server.events.on('state', (state: IDota2State) => {
-  if (state.player) {
-    console.log(state.player.gold);
+server.events.on(Dota2Event.Dota2State, (event: IDota2StateEvent) => {
+  console.log('Dota2 event!');
+  if (event.state.player) {
+    console.log(event.state.player.gold);
   }
 });
-
-server.run();
+server.listen(9001);
 ```
 # Configuration file example
 Place this content in file `steamapps/common/dota 2 beta/game/dota/cfg/gamestate_integration/gamestate_integration_*.cfg`. 
@@ -37,10 +42,6 @@ Don't forget to replace asterisk `*` with your name.
         "items"         "1"
         "draft"         "1"
         "wearables"     "1"
-    }
-    "auth"
-    {
-        "token"         "hello1234"
     }
 }
 ```

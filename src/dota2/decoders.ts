@@ -17,6 +17,10 @@ import {
 
 import { getTeam } from './utils';
 
+function getAttr(obj: any, attr: string, def: any = null) {
+  return obj[attr] || def;
+}
+
 export function decodeBuildings(rawBuildings: any) {
   const building = new Map<string, IBuilding>();
   for (const [buildingName, buildingValue] of Object.entries(rawBuildings)) {
@@ -30,17 +34,17 @@ export function decodeBuildings(rawBuildings: any) {
 
 export function decodePlayer(rawPlayer: any, observerMode: boolean) {
   const player = {
-    steamid: rawPlayer['steamid'],
-    name: rawPlayer['name'],
-    activity: rawPlayer['activity'],
-    kills: rawPlayer['kills'],
-    deaths: rawPlayer['deaths'],
-    assists: rawPlayer['assists'],
-    lastHits: rawPlayer['last_hits'],
-    denies: rawPlayer['denies'],
-    killStreak: rawPlayer['kill_streak'],
-    commandsIssues: rawPlayer['commands_issued'],
-    killList: Object.entries(rawPlayer['kill_list']).map(killObj => {
+    steamid: getAttr(rawPlayer, 'steamid'),
+    name: getAttr(rawPlayer, 'name'),
+    activity: getAttr(rawPlayer, 'activity'),
+    kills: getAttr(rawPlayer, 'kills'),
+    deaths: getAttr(rawPlayer, 'deaths'),
+    assists: getAttr(rawPlayer, 'assists'),
+    lastHits: getAttr(rawPlayer, 'last_hits'),
+    denies: getAttr(rawPlayer, 'denies'),
+    killStreak: getAttr(rawPlayer, 'kill_streak'),
+    commandsIssues: getAttr(rawPlayer, 'commands_issued'),
+    killList: Object.entries(getAttr(rawPlayer, 'kill_list', [])).map(killObj => {
       const [victimId, killCount] = killObj;
       const victimSlot = Number(victimId.split('_').slice(-1));
       return {
@@ -49,30 +53,30 @@ export function decodePlayer(rawPlayer: any, observerMode: boolean) {
       } as IPlayerKill;
     }),
     team: getTeam(rawPlayer['team_name']),
-    gold: rawPlayer['gold'],
-    goldReliable: rawPlayer['gold_reliable'],
-    goldUnreliable: rawPlayer['gold_unreliable'],
-    goldFromHeroKills: rawPlayer['gold_from_hero_kills'],
-    goldFromCreepKills: rawPlayer['gold_from_creep_kills'],
-    goldFromIncome: rawPlayer['gold_from_income'],
-    goldFromShared: rawPlayer['gold_from_shared'],
-    gpm: rawPlayer['gpm'],
-    xpm: rawPlayer['xpm'],
+    gold: getAttr(rawPlayer, 'gold'),
+    goldReliable: getAttr(rawPlayer, 'gold_reliable'),
+    goldUnreliable: getAttr(rawPlayer, 'gold_unreliable'),
+    goldFromHeroKills: getAttr(rawPlayer, 'gold_from_hero_kills'),
+    goldFromCreepKills: getAttr(rawPlayer, 'gold_from_creep_kills'),
+    goldFromIncome: getAttr(rawPlayer, 'gold_from_income'),
+    goldFromShared: getAttr(rawPlayer, 'gold_from_shared'),
+    gpm: getAttr(rawPlayer, 'gpm'),
+    xpm: getAttr(rawPlayer, 'xpm'),
   };
   if (observerMode) {
     return {
       ...player,
-      netWorth: rawPlayer['net_worth'],
-      heroDmg: rawPlayer['hero_damage'],
-      wardsPurchased: rawPlayer['wards_purchased'],
-      wardsDestroyed: rawPlayer['wards_destroyed'],
-      runesActivated: rawPlayer['runes_activated'],
-      campsStacked: rawPlayer['camps_stacked'],
-      supportGoldSpent: rawPlayer['support_gold_spent'],
-      consumableGoldSpent: rawPlayer['consumable_gold_spent'],
-      itemGoldSpent: rawPlayer['item_gold_spent'],
-      goldLostToDeath: rawPlayer['gold_lost_to_death'],
-      goldSpentOnBuybacks: rawPlayer['gold_spent_on_buybacks'],
+      netWorth: getAttr(rawPlayer, 'net_worth'),
+      heroDmg: getAttr(rawPlayer, 'hero_damage'),
+      wardsPurchased: getAttr(rawPlayer, 'wards_purchased'),
+      wardsDestroyed: getAttr(rawPlayer, 'wards_destroyed'),
+      runesActivated: getAttr(rawPlayer, 'runes_activated'),
+      campsStacked: getAttr(rawPlayer, 'camps_stacked'),
+      supportGoldSpent: getAttr(rawPlayer, 'support_gold_spent'),
+      consumableGoldSpent: getAttr(rawPlayer, 'consumable_gold_spent'),
+      itemGoldSpent: getAttr(rawPlayer, 'item_gold_spent'),
+      goldLostToDeath: getAttr(rawPlayer, 'gold_lost_to_death'),
+      goldSpentOnBuybacks: getAttr(rawPlayer, 'gold_spent_on_buybacks'),
     } as IPlayerObserver;
   } else {
     return player as IPlayer;
@@ -99,31 +103,31 @@ export function decodeItem(rawItem: any) {
 
 export function decodeHero(rawHero: any) {
   const hero = {
-    xpos: rawHero['xpos'],
-    ypos: rawHero['ypos'],
-    id: rawHero['id'],
-    name: rawHero['name'],
-    level: rawHero['level'],
-    alive: rawHero['alive'],
-    respawnSeconds: rawHero['respawn_seconds'],
-    buybackCost: rawHero['buyback_cost'],
-    buybackCooldown: rawHero['buyback_cooldown'],
-    health: rawHero['health'],
-    maxHealth: rawHero['max_health'],
-    healthPercent: rawHero['health_percent'],
-    mana: rawHero['mana'],
-    maxMana: rawHero['max_mana'],
-    manaPercent: rawHero['mana_percent'],
-    silenced: rawHero['silenced'],
-    stunned: rawHero['stunned'],
-    disarmed: rawHero['disarmed'],
-    magicimmune: rawHero['magicimmune'],
-    hexed: rawHero['hexed'],
-    muted: rawHero['muted'],
-    break: rawHero['break'],
-    smoked: rawHero['smoked'],
-    hasDebuff: rawHero['has_debuff'],
-    selectedUnit: rawHero['selected_unit'],
+    xpos: getAttr(rawHero, 'xpos'),
+    ypos: getAttr(rawHero, 'ypos'),
+    id: getAttr(rawHero, 'id'),
+    name: getAttr(rawHero, 'name'),
+    level: getAttr(rawHero, 'level'),
+    alive: getAttr(rawHero, 'alive'),
+    respawnSeconds: getAttr(rawHero, 'respawn_seconds'),
+    buybackCost: getAttr(rawHero, 'buyback_cost'),
+    buybackCooldown: getAttr(rawHero, 'buyback_cooldown'),
+    health: getAttr(rawHero, 'health'),
+    maxHealth: getAttr(rawHero, 'max_health'),
+    healthPercent: getAttr(rawHero, 'health_percent'),
+    mana: getAttr(rawHero, 'mana'),
+    maxMana: getAttr(rawHero, 'max_mana'),
+    manaPercent: getAttr(rawHero, 'mana_percent'),
+    silenced: getAttr(rawHero, 'silenced'),
+    stunned: getAttr(rawHero, 'stunned'),
+    disarmed: getAttr(rawHero, 'disarmed'),
+    magicimmune: getAttr(rawHero, 'magicimmune'),
+    hexed: getAttr(rawHero, 'hexed'),
+    muted: getAttr(rawHero, 'muted'),
+    break: getAttr(rawHero, 'break'),
+    smoked: getAttr(rawHero, 'smoked'),
+    hasDebuff: getAttr(rawHero, 'has_debuff'),
+    selectedUnit: getAttr(rawHero, 'selected_unit'),
     talents: [],
   } as IHero;
   Object.keys(rawHero)
@@ -137,24 +141,24 @@ export function decodeHero(rawHero: any) {
 
 export function decodeMap(rawMap: any, observerMode: boolean) {
   const map = {
-    name: rawMap['name'],
-    matchid: rawMap['matchid'],
-    gameTime: rawMap['game_time'],
-    clockTime: rawMap['clock_time'],
-    dayTime: rawMap['daytime'],
-    nightstalkerNight: rawMap['nightstalker_night'],
-    gameState: rawMap['game_state'],
-    paused: rawMap['paused'],
-    winTeam: rawMap['win_team'],
-    customgamename: rawMap['customgamename'],
+    name: getAttr(rawMap, 'name'),
+    matchid: getAttr(rawMap, 'matchid'),
+    gameTime: getAttr(rawMap, 'game_time'),
+    clockTime: getAttr(rawMap, 'clock_time'),
+    dayTime: getAttr(rawMap, 'daytime'),
+    nightstalkerNight: getAttr(rawMap, 'nightstalker_night'),
+    gameState: getAttr(rawMap, 'game_state'),
+    paused: getAttr(rawMap, 'paused'),
+    winTeam: getAttr(rawMap, 'win_team'),
+    customgamename: getAttr(rawMap, 'customgamename'),
   };
   if (observerMode) {
     return {
       ...map,
-      radiantWardPurchaseCooldown: rawMap['radiant_ward_purchase_cooldown'],
-      direWardPurchaseCooldown: rawMap['dire_ward_purchase_cooldown'],
-      roshanState: rawMap['roshan_state'],
-      roshanStateEndSeconds: rawMap['roshan_state_end_seconds'],
+      radiantWardPurchaseCooldown: getAttr(rawMap, 'radiant_ward_purchase_cooldown'),
+      direWardPurchaseCooldown: getAttr(rawMap, 'dire_ward_purchase_cooldown'),
+      roshanState: getAttr(rawMap, 'roshan_state'),
+      roshanStateEndSeconds: getAttr(rawMap, 'roshan_state_end_seconds'),
     } as IMapObserver;
   } else {
     return map as IMap;
@@ -167,13 +171,13 @@ export function decodeAblities(rawAbilities: any) {
     const abilitySlot = Number(abilityCode.slice(-1));
     const rawAbility = rawAbilityUncasted as any;
     abilities[abilitySlot] = {
-      name: rawAbility['name'],
-      level: rawAbility['level'],
-      canCast: rawAbility['can_cast'],
-      passive: rawAbility['passive'],
-      abilityActive: rawAbility['ability_active'],
-      cooldown: rawAbility['cooldown'],
-      ultimate: rawAbility['ultimate'],
+      name: getAttr(rawAbility, 'name'),
+      level: getAttr(rawAbility, 'level'),
+      canCast: getAttr(rawAbility, 'can_cast'),
+      passive: getAttr(rawAbility, 'passive'),
+      abilityActive: getAttr(rawAbility, 'ability_active'),
+      cooldown: getAttr(rawAbility, 'cooldown'),
+      ultimate: getAttr(rawAbility, 'ultimate'),
     } as IAbility;
   }
   return abilities;
@@ -199,29 +203,31 @@ export function decodeDraft(rawDraft: any) {
   const picksPre = Array<any>(10);
 
   ['team2', 'team3'].forEach(team => {
-    for (const [propName, propValue] of Object.entries(rawDraft[team])) {
-      const propMatch = propName.match(/(pick|ban)([0-9])_(id|class)/);
-      // Very bad code, actually.
-      if (propMatch !== null) {
-        const [orig, pickType, rawSlot, valueType] = propMatch;
-        const slot = team === 'team2' ? Number(rawSlot) : Number(rawSlot) + 5;
-        if (picksPre[slot] === undefined) {
-          picksPre[slot] = {
-            [pickType]: {},
-          };
-        } else if (picksPre[slot][pickType] === undefined) {
-          picksPre[slot][pickType] = {};
+    if (team in rawDraft) {
+      for (const [propName, propValue] of Object.entries(rawDraft[team])) {
+        const propMatch = propName.match(/(pick|ban)([0-9])_(id|class)/);
+        // Very bad code, actually.
+        if (propMatch !== null) {
+          const [orig, pickType, rawSlot, valueType] = propMatch;
+          const slot = team === 'team2' ? Number(rawSlot) : Number(rawSlot) + 5;
+          if (picksPre[slot] === undefined) {
+            picksPre[slot] = {
+              [pickType]: {},
+            };
+          } else if (picksPre[slot][pickType] === undefined) {
+            picksPre[slot][pickType] = {};
+          }
+          picksPre[Number(slot)][pickType][valueType] = propValue;
         }
-        picksPre[Number(slot)][pickType][valueType] = propValue;
       }
     }
   });
   return {
-    activeteam: rawDraft['activeteam'],
-    pick: rawDraft['pick'],
-    activeteamTimeRemaining: rawDraft['activeteam_time_remaining'],
-    radiantBonusTime: rawDraft['radiant_bonus_time'],
-    direBonusTime: rawDraft['dire_bonus_time'],
+    activeteam: getAttr(rawDraft, 'activeteam'),
+    pick: getAttr(rawDraft, 'pick'),
+    activeteamTimeRemaining: getAttr(rawDraft, 'activeteam_time_remaining'),
+    radiantBonusTime: getAttr(rawDraft, 'radiant_bonus_time'),
+    direBonusTime: getAttr(rawDraft, 'dire_bonus_time'),
     pickBans: picksPre as IPickBan[],
   } as IDraft;
 }
