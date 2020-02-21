@@ -22,12 +22,12 @@ function getAttr(obj: any, attr: string, def: any = null) {
 }
 
 export function decodeBuildings(rawBuildings: any) {
-  const building = new Map<string, IBuilding>();
+  const building: Record<string, IBuilding> = {};
   for (const [buildingName, buildingValue] of Object.entries(rawBuildings)) {
-    building.set(buildingName, {
+    building[buildingName] = {
       health: (buildingValue as any).health,
       maxHealth: (buildingValue as any).max_health,
-    } as IBuilding);
+    } as IBuilding;
   }
   return building;
 }

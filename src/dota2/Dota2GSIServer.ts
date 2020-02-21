@@ -92,16 +92,16 @@ export class Dota2GSIServer extends GSIServer {
       }
     }
 
-    let heroes = null;
+    let hero = null;
     if (checkKey(rawState, 'hero')) {
       const rawHeroSection = rawState['hero'];
       if (observerMode) {
-        heroes = Array<IHero>(10);
+        hero = Array<IHero>(10);
         for (const [slot, rawHero] of observerStateGenerator(rawHeroSection)) {
-          heroes[slot] = decodeHero(rawHero);
+          hero[slot] = decodeHero(rawHero);
         }
       } else {
-        heroes = decodeHero(rawHeroSection);
+        hero = decodeHero(rawHeroSection);
       }
     }
 
@@ -154,10 +154,11 @@ export class Dota2GSIServer extends GSIServer {
       provider,
       map,
       player,
+      hero,
       abilities,
       items,
-      wearables,
       draft,
+      wearables,
     };
   }
 }
