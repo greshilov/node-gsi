@@ -48,8 +48,8 @@ export interface IDota2ObserverState extends IDota2BaseState {
 }
 
 export interface IBuildings {
-  radiant: Map<string, IBuilding>;
-  dire: Map<string, IBuilding>;
+  radiant: Record<string, IBuilding>;
+  dire: Record<string, IBuilding>;
 }
 
 export interface IBuilding {

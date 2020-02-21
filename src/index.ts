@@ -1,5 +1,5 @@
 export { Dota2GSIServer } from './dota2/Dota2GSIServer';
-
+export { BasicEvent } from './GSIServer';
 export {
   Dota2Event,
   IAbility,
