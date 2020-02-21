@@ -12,6 +12,15 @@ export enum Dota2Event {
   Dota2ObserverState = 'dota2-observer-state',
 }
 
+export enum Dota2GameState {
+  Init = 'DOTA_GAMERULES_STATE_INIT',
+  HeroSelection = 'DOTA_GAMERULES_STATE_HERO_SELECTION',
+  StrategyTime = 'DOTA_GAMERULES_STATE_STRATEGY_TIME',
+  PreGame = 'DOTA_GAMERULES_STATE_PRE_GAME',
+  GameInProgress = 'DOTA_GAMERULES_STATE_GAME_IN_PROGRESS',
+  PostGame = 'DOTA_GAMERULES_STATE_POST_GAME',
+}
+
 export interface IDota2StateEvent {
   state: IDota2State;
   changes: IDota2State;
@@ -71,7 +80,7 @@ export interface IMap {
   clockTime: number;
   dayTime: boolean;
   nightstalkerNight: boolean;
-  gameState: string;
+  gameState: Dota2GameState;
   paused: boolean;
   winTeam: TeamType;
   customgamename: string;
