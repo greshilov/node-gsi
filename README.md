@@ -26,7 +26,7 @@ Don't forget to replace asterisk `*` with your name.
 ```
 "dota2-gsi Configuration"
 {
-    "uri"               "http://localhost:9001/"
+    "uri"               "http://localhost:9001/gsi"
     "timeout"           "5.0"
     "buffer"            "0.1"
     "throttle"          "0.1"
