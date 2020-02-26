@@ -41,9 +41,9 @@ export interface IDota2State extends IDota2BaseState {
   map: IMap | null;
   player: IPlayer | null;
   hero: IHero | null;
-  abilities: IAbility | null;
+  abilities: IAbility[] | null;
   items: IItemContainer | null;
-  wearables: IWearable | null;
+  wearables: IWearbleItem[] | null;
   draft: IDraft | null;
 }
 
@@ -53,7 +53,7 @@ export interface IDota2ObserverState extends IDota2BaseState {
   hero: IHero[] | null;
   abilities: IAbility[][] | null;
   items: IItemContainer[] | null;
-  wearables: IWearable[] | null;
+  wearables: IWearbleItem[][] | null;
   draft: IDraft | null;
 }
 
@@ -205,8 +205,6 @@ export interface IPickBan {
   pick: { id: number; class: string } | null;
   ban: { id: number; class: string } | null;
 }
-
-export type IWearable = IWearbleItem[];
 
 export interface IWearbleItem {
   wearable: number;

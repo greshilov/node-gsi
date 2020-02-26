@@ -8,7 +8,7 @@ import {
   IItemContainer,
   IPlayer,
   IProvider,
-  IWearable,
+  IWearbleItem,
   TeamType,
 } from './interface';
 
@@ -140,7 +140,7 @@ export class Dota2GSIServer extends GSIServer {
     if (checkKey(rawState, 'wearables')) {
       const rawWearableSection = rawState['wearables'];
       if (observerMode) {
-        wearables = Array<IWearable>(10);
+        wearables = Array<IWearbleItem[]>(10);
         for (const [slot, rawWearable] of observerStateGenerator(rawWearableSection)) {
           wearables[slot] = decodeWearable(rawWearable);
         }

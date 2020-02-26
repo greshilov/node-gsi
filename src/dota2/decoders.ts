@@ -11,7 +11,6 @@ import {
   IPlayer,
   IPlayerKill,
   IPlayerObserver,
-  IWearable,
   IWearbleItem,
 } from './interface';
 
@@ -257,5 +256,5 @@ export function decodeWearable(rawWearable: any) {
     }
     iWearableList.push(item);
   });
-  return iWearableList as IWearable;
+  return iWearableList as IWearbleItem[];
 }

@@ -13,6 +13,6 @@ export {
   IItemContainer,
   IPlayer,
   IProvider,
-  IWearable,
+  IWearbleItem,
   TeamType,
 } from './dota2/interface';
