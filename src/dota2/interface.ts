@@ -1,18 +1,14 @@
-type DeepPartial<T> = {
-  [P in keyof T]: T[P] | null;
-};
-
-export enum TeamType {
+export const enum TeamType {
   Dire = 'dire',
   Radiant = 'radiant',
 }
 
-export enum Dota2Event {
+export const enum Dota2Event {
   Dota2State = 'dota2-state',
   Dota2ObserverState = 'dota2-observer-state',
 }
 
-export enum Dota2GameState {
+export const enum Dota2GameState {
   Init = 'DOTA_GAMERULES_STATE_INIT',
   HeroSelection = 'DOTA_GAMERULES_STATE_HERO_SELECTION',
   StrategyTime = 'DOTA_GAMERULES_STATE_STRATEGY_TIME',
