@@ -1,14 +1,14 @@
-export const enum TeamType {
+export enum TeamType {
   Dire = 'dire',
   Radiant = 'radiant',
 }
 
-export const enum Dota2Event {
+export enum Dota2Event {
   Dota2State = 'dota2-state',
   Dota2ObserverState = 'dota2-observer-state',
 }
 
-export const enum Dota2GameState {
+export enum Dota2GameState {
   Init = 'DOTA_GAMERULES_STATE_INIT',
   HeroSelection = 'DOTA_GAMERULES_STATE_HERO_SELECTION',
   StrategyTime = 'DOTA_GAMERULES_STATE_STRATEGY_TIME',

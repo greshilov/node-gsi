@@ -17,7 +17,7 @@ import {
 import { getTeam } from './utils';
 
 function getAttr(obj: any, attr: string, def: any = null) {
-  return obj[attr] || def;
+  return obj[attr] === undefined ? def : obj[attr];
 }
 
 export function decodeBuildings(rawBuildings: any) {
