@@ -12,7 +12,7 @@ export abstract class GSIServer {
   private debug: boolean;
   private url: string;
 
-  constructor(url: string = '/', debug: boolean = false) {
+  constructor(url: string = '/', host: string = '127.0.0.1', debug: boolean = false) {
     if (!url.startsWith('/')) {
       throw Error(`Invalid serve url '${url}'! Must be starting from '/'.`);
     }
