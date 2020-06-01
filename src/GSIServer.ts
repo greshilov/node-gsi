@@ -22,11 +22,11 @@ export abstract class GSIServer {
     this.server = http.createServer((req, res) => this.handleRequest(req, res));
   }
 
-  public listen(port: number = 9001) {
+  public listen(port: number = 9001, host: string = '127.0.0.1') {
     if (this.debug) {
-      console.log(`Starting serving at http://localhost:${port}${this.url}`);
+      console.log(`Starting serving at http://${host}:${port}${this.url}`);
     }
-    this.server.listen(port);
+    this.server.listen(port, host);
   }
 
   public close() {
