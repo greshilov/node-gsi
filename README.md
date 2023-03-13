@@ -42,6 +42,7 @@ Don't forget to replace asterisk `*` with your name.
         "items"         "1"
         "draft"         "1"
         "wearables"     "1"
+        "events"        "1"
     }
 }
 ```

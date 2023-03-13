@@ -10,6 +10,7 @@ import {
   IProvider,
   IWearbleItem,
   TeamType,
+  IEvent,
 } from './interface';
 
 import {
@@ -21,6 +22,7 @@ import {
   decodeMap,
   decodePlayer,
   decodeWearable,
+  decodeEvents,
 } from './decoders';
 import { checkKey } from './utils';
 
@@ -149,6 +151,11 @@ export class Dota2GSIServer extends GSIServer {
       }
     }
 
+    let events = null;
+    if (checkKey(rawState, 'events')) {
+      events = decodeEvents(rawState['events']);
+    }
+
     return {
       buildings,
       provider,
@@ -159,6 +166,7 @@ export class Dota2GSIServer extends GSIServer {
       items,
       draft,
       wearables,
+      events,
     };
   }
 }

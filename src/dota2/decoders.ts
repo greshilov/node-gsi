@@ -2,6 +2,7 @@ import {
   IAbility,
   IBuilding,
   IDraft,
+  IEvent,
   IHero,
   IItem,
   IItemContainer,
@@ -257,4 +258,13 @@ export function decodeWearable(rawWearable: any) {
     iWearableList.push(item);
   });
   return iWearableList as IWearbleItem[];
+}
+
+export function decodeEvents(rawEvents: Array<any>) {
+  return rawEvents.map((event) => {
+    return { 
+      gameTime: getAttr(event, 'game_time'),
+      eventType: getAttr(event, 'event_type'), 
+    } as IEvent
+  });
 }

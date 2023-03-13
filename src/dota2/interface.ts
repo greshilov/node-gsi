@@ -18,6 +18,12 @@ export enum Dota2GameState {
   PostGame = 'DOTA_GAMERULES_STATE_POST_GAME',
 }
 
+export enum EventType {
+  AegisPickedUp = 'aegis_picked_up',
+  BountyRunePickedUp = 'bounty_rune_pickup',
+  RoshanKilled = 'roshan_killed',
+}
+
 export interface IDota2StateEvent {
   state: IDota2State;
   changes: IDota2State;
@@ -31,6 +37,7 @@ export interface IDota2ObserverStateEvent {
 export interface IDota2BaseState {
   buildings: IBuildings | null;
   provider: IProvider | null;
+  events: IEvent[] | null;
 }
 
 export interface IDota2State extends IDota2BaseState {
@@ -205,4 +212,9 @@ export interface IPickBan {
 export interface IWearbleItem {
   wearable: number;
   style?: number;
+}
+
+export interface IEvent {
+  gameTime: number;
+  eventType: EventType;
 }

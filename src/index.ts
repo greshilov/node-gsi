@@ -3,6 +3,7 @@ export { BasicEvent } from './GSIServer';
 export {
   Dota2GameState,
   Dota2Event,
+  EventType,
   IAbility,
   IBuilding,
   IBuildings,
@@ -10,6 +11,7 @@ export {
   IDota2StateEvent,
   IDota2ObserverState,
   IDota2ObserverStateEvent,
+  IEvent,
   IHero,
   IItem,
   IItemContainer,
